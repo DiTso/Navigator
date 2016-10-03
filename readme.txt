@@ -2,7 +2,7 @@
  * ===================================================================
  * Snippet: Navigator
  * ===================================================================
- * Version: 1.0.3
+ * Version: 1.0.4
  * Date: 2009.07.08
  * Author: PMS
  * Licence: GPL v3
@@ -107,6 +107,11 @@
  *
  * &notInMenuAction [string]
  * How to behave when a document is encountered that does not appear in the menu.
+ * Possibilities are 'link', 'skip', 'stop'
+ * Default: 'skip'
+ *
+ * &isFolderAction [string]
+ * How to behave when a document is encountered is a folder.
  * Possibilities are 'link', 'skip', 'stop'
  * Default: 'skip'
  *
